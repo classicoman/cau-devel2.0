@@ -1,0 +1,73 @@
+body {
+    width: auto;
+    margin: -10px 0 0 -10px;
+    background-color: #96BBD2;
+    font-size: 1.3em;
+}
+
+#login-header {
+    height:40px;
+    padding-top:10px;
+    background-color: #15bbd5;
+      
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align:center;
+}
+
+#signup-fields {
+    min-height:360px;
+    max-width: 320px;
+    padding: 10px 5px 0 10px;
+    font-size:13px;
+    color: #000;
+}
+.row {
+    display: inline-block;
+    padding: 0 15px 2px 15px;    
+}
+
+input {
+    font-size: 1.4em;
+    height: 35px;
+}
+
+#email {
+    width: 120px;
+    text-align: right;
+}
+#domainname {
+    font-size:1.22em;
+    font-weight: bold;
+}
+/* CSS obtingut de: en.wordpress.com  -  Necessit botons implementats així 
+   degut a que els botons clàssics <button> no son resizeables (hi ha uns
+   quants articles al respecte al Web */
+.button, input[type="submit"] {
+    padding: 30px 35px 30px 35px;
+}
+
+#footer {
+    background-color: #15bbd5;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 10px;
+    height:40px;		                
+    text-align: center;
+}
+
+#login_button {
+    height:90px;
+    width:100%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 20px 30px 20px 30px;
+
+    font-size: 1.4em;
+    font-weight: bold;    
+}

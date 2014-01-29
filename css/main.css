@@ -1,0 +1,32 @@
+/* 
+    Document   : main
+    Created on : 07-dic-2013, 18:22:10
+    Author     : entrar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-size: /*16px*/medium; /* http://ux.stackexchange.com/questions/7820/font-size-for-mobile-sites */
+    width:auto;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif/*Verdana*/;
+
+    margin: 0px;
+}
+
+#all {
+    padding: 3px 5px 0 5px;
+}
+
+#footer {
+    background-color: #15bbd5;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 10px;
+    height:40px;		                
+    text-align: center;
+}

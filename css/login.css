@@ -1,0 +1,95 @@
+body {
+    width: auto;
+    margin: -10px 0 0 -10px;
+    background-color: #96BBD2;
+    font-size: larger;
+}
+
+#login-header {
+    height:40px;
+    padding-top:10px;
+    background-color: #15bbd5;
+      
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align:center;
+}
+
+#login-fields {
+    min-height:360px;
+    max-width: 320px;
+    padding: 10px 5px 0 20px;
+    font-size:13px;
+    color: #000;
+}
+.row {
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 2px 35px;    
+}
+.label {
+    width:25%;
+    float: left;
+    position:relative;
+    padding-left:5px;
+    padding-top: 8px; /* In order to align in the center with the input box */
+
+    font-size:1.4em;
+    font-weight:bold;
+}
+.input {
+    height:30px;
+    width:68%;
+    float:left;
+    position:relative;
+    padding-left: 5px;
+}
+
+.input input {
+    height: 35px;
+    font-size: 1.5em;
+}
+.links {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+#login_form {
+    top:100px;
+    left:0;
+    position:absolute;
+}
+
+#login_button {
+    height:50px;
+    width:100%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* CSS obtingut de: en.wordpress.com  -  Necessit botons implementats així 
+   degut a que els botons clàssics <button> no son resizeables (hi ha uns
+   quants articles al respecte al Web */
+.button, input[type="submit"] {
+    padding: 30px 35px 30px 35px;
+}
+
+#footer {
+    height: 30px;
+    margin-top: 20px;
+    padding: 15px 0 10px 0;
+    background-color: #15BBD5;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 20px 30px 20px 30px;
+
+    font-size: 1.4em;
+    font-weight: bold;    
+}

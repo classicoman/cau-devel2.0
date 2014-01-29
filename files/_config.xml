@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+            <param>
+                <name>MAX_ROWS</name>
+                <value>10</value>
+            </param>
+            <param>
+                <name>MODE</name>
+                <value>0</value>
+            </param>
+            <param>
+                <name>VERSIO</name>
+                <value>1.1</value>
+            </param>
+        </params>
+</config>

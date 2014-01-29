@@ -1,0 +1,1 @@
+<div id="footer">Suport Inform&agrave;tic EASDIB - &copy; 2013</div>

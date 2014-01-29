@@ -1,0 +1,112 @@
+#header {
+    width:100%;
+    height:45px;
+    vertical-align:top;
+    font-size: 1em;
+    text-align:center;
+    
+    background-color: #15bbd5;
+}
+#logo {
+    width: 15%;
+    float:left;
+    padding: 2px 0 0 10px;
+    text-align:right;
+}
+#logo img {
+    height:42px;
+    width:42px;
+}
+#title {
+    width: 65%;
+    float:left;
+    height: 35px;
+    padding: 10px 0 0 18px;
+
+    font-size: 1.8em;
+}
+#username {
+    font-size: 0.8em;
+    float:right;
+    margin-top: 10px;
+    padding-right: 8px;
+    vertical-align: central;
+    text-align: right;
+    height: 35px;
+}
+
+#menubar  {
+    width: 100%;
+    display: inline-block;
+    background-color: #15bbd5;
+    height: 58px; 
+    padding: 0 5px 0 5px;
+}
+#menu {
+    width:auto;
+    float: left;  
+    padding-top: 12px;
+}
+#add {
+    width:50px;
+    height:50px;
+    float:right;
+}
+
+#error_or_message {
+    min-height: 12px;
+}
+ 
+#div_rows {
+    min-height: 200px;
+}
+
+.fila {
+    width: 100%; /* Si no, si el text és curt la fila no s'estira tota */
+    border-bottom:#c8c8c8 solid 1px; 
+
+    padding-top: 3px;
+    display: inline-block;  /* Si no, no té estructura lògica */
+
+    cursor:pointer;
+}
+.fila:hover {
+    background-color: #E5E5E5;
+}
+
+.date {
+    width: 100%;
+    text-align: right;
+    padding: 0 0 1px 3px;
+    color:#a19292;
+}
+
+.name, .name_new  {
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+    padding-top: 0px;
+}
+.name {   color:#555555;  }
+.name_new {
+    padding-left: 20px;
+    background-image: url("../images/triangle.png");
+    background-repeat:no-repeat;
+    background-position:left top;
+    color:#000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.desc, .desc_new {
+    width: 100%;
+    display: block;
+    padding-left: 5px;
+}
+.desc_new {
+    font-weight: bold;
+}
+
+
+
+/* This is to avoid IExplorer show a thick dull blue img border */
+img {  border:0;  }
