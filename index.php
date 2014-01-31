@@ -46,7 +46,7 @@ class Car extends Framework\Base
 }
 
 $car = new Car('fiat panda','vermell');
-echo $car->imprimir();
+//echo $car->imprimir();
 
 
 
@@ -74,13 +74,19 @@ $hello = new Hello();
 //Set
 //$hello->world = "foo!";
 //Get
-echo $hello->world;
+//echo $hello->world;
 
 
 
 $configuration = new Framework\Configuration(array(
-"type" => "ini"
+    "type" => "ini"
 ));
+//Obtengo el Driver de classe Ini
 $configuration = $configuration->initialize();
+//Parseo el fitxer de configuracio
+$resultat = $configuration->parse('config');
+var_dump($resultat);
+echo "</br>";
+echo("<p>El tipus de base de dades &eacute;s <strong>".$resultat->database->default->type)."</strong></p>";
 
 ?>
