@@ -47,4 +47,40 @@ class Car extends Framework\Base
 
 $car = new Car('fiat panda','vermell');
 echo $car->imprimir();
+
+
+
+class Hello extends Framework\Base
+{
+/**
+* @readwrite
+*/
+protected $_world="patata";
+
+/*
+public function setWorld($value)
+{
+echo "your setter is being called!";
+$this->_world = $value;
+}
+public function getWorld()
+{
+echo "your getter is being called!";
+return $this->_world;
+}
+ * */
+}
+$hello = new Hello();
+//Set
+//$hello->world = "foo!";
+//Get
+echo $hello->world;
+
+
+
+$configuration = new Framework\Configuration(array(
+"type" => "ini"
+));
+$configuration = $configuration->initialize();
+
 ?>

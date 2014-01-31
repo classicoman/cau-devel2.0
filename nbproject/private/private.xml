@@ -3,7 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/controllers/signupCheck.php</file>
+            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/Framework/Configuration.php</file>
+            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/index.php</file>
+            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/Framework/ArrayMethods.php</file>
+            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/Framework/Configuration/Driver.php</file>
+            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/Framework/Base.php</file>
+            <file>file:/C:/Users/toni/Documents/GitHub/cau-devel2.0/Framework/Configuration/Driver/Ini.php</file>
         </group>
     </open-files>
 </project-private>

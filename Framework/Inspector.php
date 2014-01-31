@@ -91,15 +91,15 @@ namespace Framework
             {
                 if (!isset($_meta["class"]))
                 {
-                $comment = $this->_getClassComment();
-                if (!empty($comment))
-                {
-                $_meta["class"] = $this->_parse($comment);
-                }
-                else
-                {
-                $_meta["class"] = null;
-                }
+                    $comment = $this->_getClassComment();
+                    if (!empty($comment))
+                    {
+                        $_meta["class"] = $this->_parse($comment);
+                    }
+                    else
+                    {
+                        $_meta["class"] = null;
+                    }
                 }
                 return $_meta["class"];
             }
@@ -108,11 +108,11 @@ namespace Framework
             {
                 if (!isset($_properties))
                 {            
-                $properties = $this->_getClassProperties();
-                foreach ($properties as $property)
-                {
-                $_properties[] = $property->getName();
-                }
+                    $properties = $this->_getClassProperties();
+                    foreach ($properties as $property)
+                    {
+                        $_properties[] = $property->getName();
+                    }
                 }
                 return $_properties;
             }
@@ -121,11 +121,11 @@ namespace Framework
             {
                 if (!isset($_methods))
                 {
-                $methods = $this->_getClassMethods();
-                foreach ($methods as $method)
-                {
-                $_methods[] = $method->getName();
-                }
+                    $methods = $this->_getClassMethods();
+                    foreach ($methods as $method)
+                    {
+                        $_methods[] = $method->getName();
+                    }
                 }
                 return $_properties;
             }
@@ -134,15 +134,15 @@ namespace Framework
             {
                 if (!isset($_meta["properties"][$property]))
                 {
-                $comment = $this->_getPropertyComment($property);
-                if (!empty($comment))
-                {
-                $_meta["properties"][$property] = $this->_parse($comment);
-                }
-                else
-                {
-                $_meta["properties"][$property] = null;
-                }
+                    $comment = $this->_getPropertyComment($property);
+                    if (!empty($comment))
+                    {
+                        $_meta["properties"][$property] = $this->_parse($comment);
+                    }
+                    else
+                    {
+                        $_meta["properties"][$property] = null;
+                    }
                 }
                 return $_meta["properties"][$property];
             }
@@ -151,15 +151,15 @@ namespace Framework
             {
                 if (!isset($_meta["actions"][$method]))
                 {
-                $comment = $this->_getMethodComment($method);
-                if (!empty($comment))
-                {
-                $_meta["methods"][$method] = $this->_parse($comment);
-                }
-                else
-                {            
-                $_meta["methods"][$method] = null;
-                }
+                    $comment = $this->_getMethodComment($method);
+                    if (!empty($comment))
+                    {
+                        $_meta["methods"][$method] = $this->_parse($comment);
+                    }
+                    else
+                    {            
+                        $_meta["methods"][$method] = null;
+                    }
                 }
                 return $_meta["methods"][$method];
             }            
